@@ -1,4 +1,4 @@
-# Impossible Travel Detection · KQL + Microsoft Sentinel
+# 07 — Impossible Travel Detection · KQL + Microsoft Sentinel
 
 **Analyst:** Alejandro Garcia (CyberJudoSec)  
 **Tools:** Microsoft Sentinel · KQL · Defender for Identity · Azure Entra ID  
