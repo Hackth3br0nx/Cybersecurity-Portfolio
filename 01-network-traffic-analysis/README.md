@@ -42,7 +42,9 @@ dns || http || tcp.flags.syn == 1
 ```
 
 ### 2. DNS Traffic Analysis
-![DNS tunnel path diagram](./diagrams/dns-tunnel-diagram.png)
+
+[DNS tunnel path diagram](./diagrams/dns-tunnel-diagram.png)
+
 Filtered for DNS traffic and examined query patterns:
 ```
 dns.qry.name contains "." && dns.flags.response == 0
