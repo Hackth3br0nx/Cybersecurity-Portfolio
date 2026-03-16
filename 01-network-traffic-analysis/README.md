@@ -44,6 +44,7 @@ dns || http || tcp.flags.syn == 1
 ### 2. DNS Traffic Analysis
 
 ![DNS tunnel path diagram](./diagrams/dns-tunnel-diagram.png)
+
 *DNS tunneling attack path — infected host encodes data in subdomain queries routed through corporate DNS to attacker-controlled resolver.*
 
 Filtered for DNS traffic and examined query patterns:
