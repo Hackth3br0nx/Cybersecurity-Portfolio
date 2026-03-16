@@ -1,4 +1,4 @@
-# Malicious Infrastructure Investigation · Microsoft Sentinel
+# 08 — Malicious Infrastructure Investigation · Microsoft Sentinel
 
 **Analyst:** Alejandro Garcia (CyberJudoSec)  
 **Tools:** Maltego · Shodan · VirusTotal · Censys · SpiderFoot · Microsoft Sentinel  
