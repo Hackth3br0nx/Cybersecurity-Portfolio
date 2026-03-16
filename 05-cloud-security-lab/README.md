@@ -182,6 +182,13 @@ Internet
 [VPC Flow Logs → CloudTrail → S3 Audit Bucket]
 ```
 
+![Cloud architecture hardened state](./diagrams/cloud-architecture-diagram.png)
+
+
+*Hardened AWS/Azure architecture — public S3 access blocked, IAM scoped to least privilege, CloudTrail enabled across all regions, NSG restricted to port 443 inbound.*
+
+
+
 ---
 
 ## What I Learned
