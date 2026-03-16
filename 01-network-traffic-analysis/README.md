@@ -47,6 +47,7 @@ dns || http || tcp.flags.syn == 1
 
 *DNS tunneling attack path — infected host encodes data in subdomain queries routed through corporate DNS to attacker-controlled resolver.*
 
+
 Filtered for DNS traffic and examined query patterns:
 ```
 dns.qry.name contains "." && dns.flags.response == 0
