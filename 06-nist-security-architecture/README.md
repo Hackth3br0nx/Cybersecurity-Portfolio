@@ -47,6 +47,12 @@ A 50-person hybrid company — 30 office workers and 20 remote employees — nee
 
 **Overall Maturity: 1.2 / 5 — Significant gaps across all functions**
 
+![NIST CSF maturity current vs target](./diagrams/nist-maturity-chart.png)
+
+
+*Current maturity score 1.2/5 across all 5 CSF functions — projected improvement to 3.6/5 following phased implementation of controls.*
+
+
 ---
 
 ## Risk Assessment
