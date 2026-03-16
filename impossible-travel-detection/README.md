@@ -11,6 +11,12 @@
 
 Authentication logs in Microsoft Sentinel showed user sign-ins from geographically distant locations within timeframes physically impossible to travel between. A user account showed a successful sign-in from New York at 02:14 UTC, followed by a successful sign-in from Eastern Europe at 02:47 UTC — a 33-minute window across thousands of miles. No VPN or travel was on record. The hypothesis: stolen credentials being used by a remote threat actor.
 
+
+![Impossible travel route](./diagrams/impossible-travel-map.png)
+
+*Same account authenticated from New York and Eastern Europe within 33 minutes — physically impossible, confirming credential compromise.*
+
+
 ---
 
 ## Goal
