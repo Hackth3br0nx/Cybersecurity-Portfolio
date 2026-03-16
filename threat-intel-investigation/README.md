@@ -51,9 +51,7 @@ Loaded all indicators into Maltego. Ran transforms:
 
 ![Attacker infrastructure map](./diagrams/maltego-node-graph.png)
 
-
 *3 seed indicators expanded to 12 related infrastructure nodes via Maltego pivoting across shared registrant, hosting provider, and SSL certificates.*
-
 
 
 ### 3. Shodan Enrichment
