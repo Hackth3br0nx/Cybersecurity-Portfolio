@@ -75,6 +75,13 @@ SigninLogs
 
 **Result:** 3 accounts flagged with sign-ins from 2+ countries within 30-minute windows.
 
+
+![SIEM Hunt Workflow Sentinel Splunk Correlation](./diagrams/p04-hunt-workflow.png)
+
+
+*Figure 1: End-to-end hunt pipeline from data sources through Sentinel KQL detection, Splunk endpoint correlation, and confirmed compromise. KQL detection fired 4 hours before Defender for Identity alerted.*
+
+
 ### 3. Endpoint Correlation in Splunk
 ```spl
 index=endpoint sourcetype=WinEventLog:Security EventCode=4624
@@ -94,6 +101,13 @@ index=endpoint sourcetype=WinEventLog:Security EventCode=4624
 | T1021.001 | Remote Desktop Protocol | RDP sessions from external IPs |
 | T1550.002 | Pass the Hash | Lateral movement without re-authentication prompts |
 | T1078.004 | Cloud Accounts | Azure sign-ins from anomalous locations |
+
+
+![MITRE ATTCK Technique Mapping Credential Compromise Hunt](./diagrams/p04-mitre-mapping.png)
+
+
+*Figure 2: All 4 ATT&CK techniques confirmed with corroborating evidence from Sentinel SigninLogs, Splunk endpoint telemetry, and Defender for Identity signals. No unsubstantiated TTPs.*
+
 
 ### 5. Timeline Reconstruction
 
