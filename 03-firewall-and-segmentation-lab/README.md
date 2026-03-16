@@ -37,6 +37,12 @@ A flat network environment with no segmentation was identified as a significant 
 
 ## Network Design
 
+![Network Segmentation — Before vs After](./diagrams/network-before-after.png)
+
+*Figure 1: Flat network (left) vs VLAN-segmented architecture (right). All inter-VLAN traffic is blocked by default except SMB port 445 from User VLAN to Server VLAN.*
+
+
+
 ### Before (Flat Network)
 ```
 Internet
@@ -125,6 +131,11 @@ nmap -p 443 192.168.99.1
 nmap -p 445 192.168.10.20
 # Result: filtered ✅
 ```
+
+![Firewall Rule Validation — nmap Test Results](./diagrams/firewall-validation.png)
+
+*Figure 2: All 5 nmap validation tests passed. ALLOW tests confirmed permitted traffic flows. BLOCK tests confirmed lateral movement is contained at VLAN boundaries.*
+
 
 ---
 
