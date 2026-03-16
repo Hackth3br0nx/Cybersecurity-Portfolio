@@ -49,6 +49,13 @@ Loaded all indicators into Maltego. Ran transforms:
 
 **Finding:** 3 seed indicators expanded to 12 related infrastructure nodes sharing hosting, registrant, and SSL certificate patterns.
 
+![Attacker infrastructure map](./diagrams/maltego-node-graph.png)
+
+
+*3 seed indicators expanded to 12 related infrastructure nodes via Maltego pivoting across shared registrant, hosting provider, and SSL certificates.*
+
+
+
 ### 3. Shodan Enrichment
 Queried each IP address in Shodan:
 - Port 4444 open — common C2 port
